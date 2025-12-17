@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.main{ 
+    width: 100%; 
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0, 0, 0, 0.3)50%),url(moeda.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+} 
+
+.navbar{
+    width: 1200px;
+    height: 75px; 
+    margin: auto;
+} 
+ 
+.icon{
+    width: 200px;
+    float: left; 
+    height:70px;
+}
+ 
+.logo{ 
+    color: rgb(21, 208, 233); 
+    font-size: 35px;
+    padding-left: -5px;
+    float: left; 
+    margin-left: -9px;
+    padding-top: 10px;
+} 
+ 
+
+ 
+.menu{ 
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+} 
+ 
+ul{
+   float: left;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+ 
+ul li{
+    list-style: none; 
+    margin-left:60px; 
+    margin-top: 20px; 
+    font-size: 16px;
+} 
+ 
+ul li a, .dropbtn{
+     text-decoration: none; 
+     color: beige;
+     font-family:'Times New Roman', Times, serif;    
+     font-weight: bold;
+}
+ 
+ul li a:hover, .dropdawn:hover .dropbtn{
+     color: rgb(25, 153, 212);
+     transition: .4s ease;
+} 
+ 
+li .dropdawn{
+     display: inline-block;
+}
+   
+.dropcontent{
+     display: none; 
+     position: absolute; 
+     width: 150px;
+} 
+ 
+.dropcontent a{
+    
+     display: block; 
+     text-align: left; 
+     
+}
+  
+.dropdawn:hover .dropcontent{
+     display: block;
+} 
+
+  .search{
+    width: 330px; 
+    float: left; 
+    margin-left: 270px;  
+    margin: -80px 900px ;
+  }
+   
+.navegar{
+    font-family: 'Times New Roman';     
+    width: 200px; 
+    height: 40px; 
+    background: transparent;
+    border: 1px solid #0dc5e6;  
+    margin-top: 13px; 
+    color: #fff;  
+    border-right:none; 
+    font-size: 16px; 
+    float: left; 
+    padding: 10px;  
+    border-bottom-left-radius: 10px; 
+    border-top-left-radius: 10px;
+}  
+ 
+.btn{
+width: 100px;    
+height: 40px;
+background: #05dada; 
+border: 2px  solid #05d3da;
+margin-top: 13px;   
+color: #fff; 
+font-size: 15px;  
+border-bottom-right-radius: 5px;
+border-bottom-right-radius: 5px;
+ 
+}
+ 
+.btn:focus{ 
+     outline: none; 
+
+}
+.navegar:focus{
+     outline: none;
+}
+.content{ 
+    width: 1200px;
+    height: auto;
+    margin: auto; 
+    color: #fff; 
+    position: relative;
+}
+ 
+.content .par{ 
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 19%; 
+    margin-left: -20px; 
+    font-size:20px; 
+    
+}
+  
+.content .btnn{ 
+    width: 160px; 
+    height: 40px;
+    background: rgb(16, 16, 235); 
+    border: none; 
+    font-size: 18px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: .4s ease;
+
+} 
+ 
+.content .btnn a{ 
+    text-decoration: none; 
+    color: #ddeeee; 
+    transition: .3s ease;
+}
+ 
+.content .btnn:hover{ 
+    background: #109b9b;
+}
+ 
+.form{
+    width: 250px; 
+    height: 380px; 
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute; 
+    top: 150px; 
+    left: 870px;
+    border-radius: 10px; 
+    padding: 25px;
+    margin: 0 30px;
+    
+}
+ 
+.form h2{ 
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center; 
+    color: #0b0c0c; 
+    font-size: 22px;  
+    border-radius: 10px;
+    margin: 2px; 
+    padding: 8px;
+}
+
+
+ 
+.form input{   
+    width: 240px;
+    height: 35px;  
+    background: transparent; 
+    border-bottom: 1px solid #109b9b;
+    border-top: none;
+    border-left: none; 
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+} 
+ 
+.form input:focus{
+    outline: none;
+}
+ 
+::placeholder{ 
+   color: #fff; 
+   font-family: Arial, Helvetica, sans-serif;
+} 
+ 
+
+   
+.btnn{ 
+    width: 240px;
+    height: 40px;
+    background: #05dada; 
+    border: none;
+    margin-top: 30px; 
+    font-size: 18px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    color: #fff;
+    transition: 0.4s ease; 
+    
+}  
+
+ 
+.btnn:hover{  
+   background: #097cda; 
+   color: white;  
+}
+ 
+
+ 
+.btnn a{
+   text-decoration: none; 
+   color: #0b0c0c; 
+   font-weight: normal;
+} 
+  
+.form .link{ 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px; 
+   padding-top: 20px;
+   text-align: center;
+   color: aliceblue;
+}
+  
+.form .link a{
+   text-decoration: none;
+   color: rgb(24, 135, 226);
+}
+ 
+.liw{ 
+   padding-top: 8px; 
+   text-align: center;
+   color: aliceblue;
+}
+ 
+.icons a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px; 
+  padding-top: 5px;
+  padding-left: 19px; 
+  transition: 0.3s ease;
+}
+ 
+.icons a:hover{ 
+   color: #0d8fe6;
+}
+ 
+
+  
+.icons ion-icons:hover{
+   color: #05dada;
+}
