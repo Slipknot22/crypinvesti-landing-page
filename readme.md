@@ -2,6 +2,9 @@
 
 Landing page com layout de plataforma de investimentos em criptomoedas.
 
+![Prévia do Projeto](./moeda.jpg)
+
+ 
 ## 🛠 Tecnologias
 - HTML5
 - CSS3
@@ -15,3 +18,4 @@ Responsividade e interações em JavaScript serão adicionadas futuramente.
 
 ## 🎯 Objetivo
 Praticar conceitos de front-end e organização de código.
+
