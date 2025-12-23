@@ -16,6 +16,11 @@ Projeto front-end focado em estruturação de layout, estilização avançada em
 Layout desenvolvido com foco em desktop.  
 Responsividade e interações em JavaScript serão adicionadas futuramente.
 
+## 🚀 Demo do Projeto
+👉 https://slipknot22.github.io/crypinvesti-landing-page/
+
+  
 ## 🎯 Objetivo
 Praticar conceitos de front-end e organização de código.
+
 
